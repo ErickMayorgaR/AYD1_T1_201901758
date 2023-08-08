@@ -25,7 +25,7 @@ app.post('calculadora/201901758', (req, res) => {
           resultado = numero1 - numero2;
           break;
         case 'multiplicacion':
-          resultado = numero1 + numero2;
+          resultado = numero1 * numero2;
           break;
         case 'division':
           if (numero2 === 0) {
